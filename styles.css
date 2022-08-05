@@ -1,0 +1,33 @@
+ /* Style the video: 100% width and height to cover the entire window */
+
+main {
+   position: relative;
+   width: 100vw;
+   height: 100vh;
+ }
+
+ #fullvid {
+   filter: saturate(200%) grayscale(60%) opacity(80%);
+   height: 100vh;
+   left: 0;
+   object-fit: cover;
+   position: fixed;
+   top: 0;
+   width: 100vw;
+}
+
+@font-face {
+  font-family: "Vault Alarm";
+  src: url('/Users/abu/Library/Fonts/VaultAlarm-Regular.woff2') format('woff2'), 
+    url('/Users/abu/Library/Fonts/VaultAlarm-Regular.woff') format('woff');
+}
+
+ h1 {
+   color: #fff;
+   font-family: "Vault Alarm";
+   font-size: 3em;
+   height: 100vh;
+   position: relative;
+   text-align: center;
+   justify-content: center;
+ }
